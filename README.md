@@ -14,7 +14,7 @@ iproute2
 ntp
 with the latest updates. 
 
-How to use this container
+# How to use this container
 
 normally a Docker Container is shutting down, in follow of this you need to add the tty flag
 
@@ -27,7 +27,7 @@ docker run -ti matthi17/debian-networkutilities:latest
 
 
 
-How to build this image by your own:
+# How to build this image by your own:
 
 1. downloaded the Dockerfile in a new directory.
 2. docker build . -t matthi17/debian-networkutilities #use your image name
