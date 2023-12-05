@@ -16,7 +16,15 @@ with the latest updates.
 
 How to use this container
 
+normally a Docker Container is shutting down, in follow of this you need to add the tty flag
+
 Docker run:
+
+docker run -ti matthi17/debian-networkutilities:latest
+
+Docker-Compose:
+
+
 
 
 How to build this image by your own:
