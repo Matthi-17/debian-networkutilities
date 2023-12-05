@@ -24,7 +24,13 @@ docker run -ti matthi17/debian-networkutilities:latest
 
 # Docker-Compose:
 
+version: "3"
 
+services:
+  utilities:
+    image: matthi17/debian-networkutilities:latest
+    stdin_open: true 
+    tty: true        
 
 
 # How to build this image by your own:
