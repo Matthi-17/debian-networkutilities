@@ -18,11 +18,11 @@ How to use this container
 
 normally a Docker Container is shutting down, in follow of this you need to add the tty flag
 
-Docker run:
+# Docker run:
 
 docker run -ti matthi17/debian-networkutilities:latest
 
-Docker-Compose:
+# Docker-Compose:
 
 
 
