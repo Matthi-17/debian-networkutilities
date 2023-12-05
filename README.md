@@ -11,7 +11,12 @@ debian:latest
 dnsutils
 iputils-ping
 iproute2
+ntp
 with the latest updates. 
+
+How to use this container
+
+Docker run:
 
 
 How to build this image by your own:
