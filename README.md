@@ -14,7 +14,7 @@ iproute2
 ntp
 with the latest updates. 
 
-# How to use this container
+# How to start this container
 
 normally a Docker Container is shutting down, in follow of this you need to add the tty flag
 
@@ -37,6 +37,10 @@ services:
     tty: true        
 
 ```
+
+# How to use this container
+
+will follow shortly
 
 # How to build this image by your own:
 
